@@ -2,6 +2,24 @@
 
 Project ini dibuat untuk mendeteksi berbagai jenis buah menggunakan metode object detection berbasis YOLOv8. Model akan mengenali objek pada gambar dan menampilkan hasil deteksi berupa bounding box beserta label nama buah.
 
+## Hasil Deteksi (Visualisasi)
+
+Berikut adalah contoh performa model dalam mendeteksi buah (Nanas/Pineapple) beserta simulasi tampilan *popup* interaktifnya:
+
+### 1. Sebelum Deteksi (Before Detection)
+Gambar mentah dari dataset test.
+![Before Detection](screenshots/before_detection.jpg)
+
+### 2. Sesudah Deteksi (After Detection)
+Model AI berhasil mengenali objek nanas dan menggambar kotak deteksi (*bounding box*) dengan akurasi yang tinggi.
+![After Detection](screenshots/after_detection.jpg)
+
+### 3. Tampilan Aplikasi (Popup Inference)
+Tampilan pop-up interaktif yang akan muncul saat menjalankan script inference.
+![Popup Inference](screenshots/popup_inference.jpg)
+
+---
+
 ## Cara Menjalankan Project
 
 ### 1. Persiapkan Environment
