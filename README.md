@@ -44,15 +44,6 @@ python train.py
 ```
 Proses ini akan memakan waktu beberapa menit. Setelah selesai, model terbaiknya akan otomatis tersimpan di dalam folder `runs/detect/`.
 
-Berikut adalah konfigurasinya:
-- **Model**: Menggunakan `yolov8n.pt` (versi nano/kecil) yang diinisialisasi dari bobot model yang sudah dilatih sebelumnya (pre-trained).
-- **Data**: Menggunakan konfigurasi dataset `dataset/data.yaml`.
-- **Epochs**: Pelatihan dilakukan sebanyak **10 epoch**.
-- **Image Size**: Resolusi gambar input diubah menjadi **320x320** piksel.
-- **Batch Size**: Model memproses **16 gambar** secara bersamaan dalam sekali iterasi.
-- **Device**: Pelatihan diarahkan ke perangkat **MPS (Metal Performance Shaders)**.
-- **Name**: Hasil pelatihan disimpan dalam sub-folder `runs/detect/fruit_detector`.
-
 ### 4. Lihat Hasilnya
 Jalankan script ini:
 ```bash
