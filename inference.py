@@ -36,7 +36,7 @@ def main():
         img_path = os.path.join(image_dir, img_name)
         
         results = model(img_path)
-        annotated_image = results[0].plot()
+        annotated_image = results[0].plot(conf=False)
         
         window_name = "Fruit Detection Preview"
         cv2.imshow(window_name, annotated_image)
