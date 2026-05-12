@@ -54,7 +54,7 @@ Berikut adalah konfigurasinya:
 - **Name**: Hasil pelatihan disimpan dalam sub-folder `runs/detect/fruit_detector`.
 
 ### 4. Lihat Hasilnya
-Mari kita tes seberapa pintar AI yang sudah kita latih tadi. Jalankan script ini:
+Jalankan script ini:
 ```bash
 python inference.py
 ```
